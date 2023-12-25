@@ -30,22 +30,22 @@ const SideNav = ({
           <div className="list">
             <div className="list-title">RESUME</div>
             <div className="items">
-            <a onClick={(e) => { e.preventDefault(); e.stopPropagation(); toggleHome(); }} href="http://www.google.com" className="item">
+            <a onClick={(e) => { e.preventDefault(); e.stopPropagation(); toggleHome(); }} href="https://main.dvnq4p5zmaq26.amplifyapp.com/" className="item">
                 <span className="material-icons-round"> home </span>
                 Home
               </a>
 
-              <a onClick={(e) => { e.preventDefault(); e.stopPropagation(); toggleAbout(); }} href="http://www.google.com" className="item">
+              <a onClick={(e) => { e.preventDefault(); e.stopPropagation(); toggleAbout(); }} href="https://main.dvnq4p5zmaq26.amplifyapp.com/" className="item">
                 <span className="material-icons-round"> info </span>
                 About
               </a>
 
-              <a onClick={(e) => { e.preventDefault(); e.stopPropagation(); toggleExperience(); }} href="http://www.google.com" className="item">
+              <a onClick={(e) => { e.preventDefault(); e.stopPropagation(); toggleExperience(); }} href="https://main.dvnq4p5zmaq26.amplifyapp.com/" className="item">
                 <span className="material-icons-round"> timeline </span>
                 Experience
               </a>
 
-              <a onClick={(e) => { e.preventDefault(); e.stopPropagation(); toggleContact(); }} href="http://www.google.com" className="item">
+              <a onClick={(e) => { e.preventDefault(); e.stopPropagation(); toggleContact(); }} href="https://main.dvnq4p5zmaq26.amplifyapp.com/" className="item">
                 <span className="material-icons-round"> mail_outline </span>
                 Contact
               </a>
@@ -55,35 +55,35 @@ const SideNav = ({
         <div className="list">
           <div className="list-title">CONTEXT</div>
           <div className="items">
-            <a onClick={(e) => { e.preventDefault(); e.stopPropagation(); toggleJavaProjects(); }} href="http://www.google.com" className="item">
+            <a onClick={(e) => { e.preventDefault(); e.stopPropagation(); toggleJavaProjects(); }} href="https://main.dvnq4p5zmaq26.amplifyapp.com/" className="item">
               <span className="material-icons-round"> coffee </span>
               Java Projects
             </a>
-            <a onClick={(e) => { e.preventDefault(); e.stopPropagation(); toggleCPlusPlusProjects(); }} href="http://www.google.com" className="item">
+            <a onClick={(e) => { e.preventDefault(); e.stopPropagation(); toggleCPlusPlusProjects(); }} href="https://main.dvnq4p5zmaq26.amplifyapp.com/" className="item">
               <span className="material-icons-round"> memory </span>
               C++ Projects
             </a>
-            <a onClick={(e) => { e.preventDefault(); e.stopPropagation(); toggleAIProjects(); }} href="http://www.google.com" className="item">
+            <a onClick={(e) => { e.preventDefault(); e.stopPropagation(); toggleAIProjects(); }} href="https://main.dvnq4p5zmaq26.amplifyapp.com/" className="item">
               <span className="material-icons-round"> smart_toy </span>
               Artificial Intelligence Projects
             </a>
-            <a onClick={(e) => { e.preventDefault(); e.stopPropagation(); togglePythonProjects(); }} href="http://www.google.com" className="item">
+            <a onClick={(e) => { e.preventDefault(); e.stopPropagation(); togglePythonProjects(); }} href="https://main.dvnq4p5zmaq26.amplifyapp.com/" className="item">
               <span className="material-icons-round"> science </span>
               Python Projects
             </a>
-            <a onClick={(e) => { e.preventDefault(); e.stopPropagation(); toggleReactJSProjects(); }} href="http://www.google.com" className="item">
+            <a onClick={(e) => { e.preventDefault(); e.stopPropagation(); toggleReactJSProjects(); }} href="https://main.dvnq4p5zmaq26.amplifyapp.com/" className="item">
               <span className="material-icons-round"> widgets </span>
               ReactJS Projects
             </a>
-            <a onClick={(e) => { e.preventDefault(); e.stopPropagation(); toggleVueJSProjects(); }} href="http://www.google.com" className="item">
+            <a onClick={(e) => { e.preventDefault(); e.stopPropagation(); toggleVueJSProjects(); }} href="https://main.dvnq4p5zmaq26.amplifyapp.com/" className="item">
               <span className="material-icons-round"> spa </span>
               VueJS Projects
             </a>
-            <a onClick={(e) => { e.preventDefault(); e.stopPropagation(); toggleCSharpProjects(); }} href="http://www.google.com" className="item">
+            <a onClick={(e) => { e.preventDefault(); e.stopPropagation(); toggleCSharpProjects(); }} href="https://main.dvnq4p5zmaq26.amplifyapp.com/" className="item">
               <span className="material-icons-round"> web </span>
               C# Projects
             </a>
-            <a onClick={(e) => { e.preventDefault(); e.stopPropagation(); toggleNodeJSProjects(); }} href="http://www.google.com" className="item">
+            <a onClick={(e) => { e.preventDefault(); e.stopPropagation(); toggleNodeJSProjects(); }} href="https://main.dvnq4p5zmaq26.amplifyapp.com/" className="item">
               <span className="material-icons-round"> router </span>
               NodeJS Projects
             </a>
@@ -92,7 +92,7 @@ const SideNav = ({
         </div>
         
         <div className="list">
-          <a href="http://www.google.com" className="item">
+          <a href="https://main.dvnq4p5zmaq26.amplifyapp.com/" className="item">
           {/* "Logout" Button: 
           This section creates a logout button styled as a list item in the navigation menu.
           It uses an anchor tag (<a>) for the button, which can be linked to the logout functionality.

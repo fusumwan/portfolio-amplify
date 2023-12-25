@@ -33,7 +33,7 @@ function BgVideo() {
 
         <section className="content">
           <h1>Journey</h1>
-          <a href="http://www.google.com">Explore</a>
+          <a href="https://main.dvnq4p5zmaq26.amplifyapp.com/">Explore</a>
         </section>
       </section>
     </div>

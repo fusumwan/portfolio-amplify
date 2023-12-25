@@ -17,7 +17,7 @@ function ReactJSProjects({ onShowBgVideo, onShowLoadingAnimation }) {
         <div>
         <p>Personal Portfolio</p> 
         <p>(ReactJS Website)</p>
-        <a href='https://fusumwan.github.io/portfolio/'  target="_blank" rel="noopener noreferrer">Portfolio</a>
+        <a href='https://main.dvnq4p5zmaq26.amplifyapp.com/'  target="_blank" rel="noopener noreferrer">Portfolio</a>
         </div>
       ),
       description: (
@@ -38,12 +38,12 @@ function ReactJSProjects({ onShowBgVideo, onShowLoadingAnimation }) {
     },
     {
       id: '2',
-      name: <a href="http://www.google.com" onClick={(e) => { e.preventDefault(); e.stopPropagation(); onShowBgVideo(); }}>Show Background Video</a>,
+      name: <a href="https://main.dvnq4p5zmaq26.amplifyapp.com/" onClick={(e) => { e.preventDefault(); e.stopPropagation(); onShowBgVideo(); }}>Show Background Video</a>,
       description: 'This program is showing a Background Video program'
     },
     {
       id: '3',
-      name: <a href="http://www.google.com" onClick={(e) => { e.preventDefault(); e.stopPropagation(); onShowLoadingAnimation(); }}>Show Loading Animation</a>,
+      name: <a href="https://main.dvnq4p5zmaq26.amplifyapp.com/" onClick={(e) => { e.preventDefault(); e.stopPropagation(); onShowLoadingAnimation(); }}>Show Loading Animation</a>,
       description: 'This program is showing a Loading Animation'
     }
   ], []);
