@@ -38,12 +38,12 @@ function ReactJSProjects({ onShowBgVideo, onShowLoadingAnimation }) {
     },
     {
       id: '2',
-      name: <a href="#" onClick={(e) => { e.preventDefault(); e.stopPropagation(); onShowBgVideo(); }}>Show Background Video</a>,
+      name: <a href="javascript:void(0);" onClick={(e) => { e.preventDefault(); e.stopPropagation(); onShowBgVideo(); }}>Show Background Video</a>,
       description: 'This program is showing a Background Video program'
     },
     {
       id: '3',
-      name: <a href="#" onClick={(e) => { e.preventDefault(); e.stopPropagation(); onShowLoadingAnimation(); }}>Show Loading Animation</a>,
+      name: <a href="javascript:void(0);" onClick={(e) => { e.preventDefault(); e.stopPropagation(); onShowLoadingAnimation(); }}>Show Loading Animation</a>,
       description: 'This program is showing a Loading Animation'
     }
   ], []);
