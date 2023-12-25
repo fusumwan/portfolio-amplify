@@ -33,7 +33,7 @@ function BgVideo() {
 
         <section className="content">
           <h1>Journey</h1>
-          <a href="#">Explore</a>
+          <a href="javascript:void(0);">Explore</a>
         </section>
       </section>
     </div>
