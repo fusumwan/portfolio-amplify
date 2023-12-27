@@ -17,19 +17,26 @@ function Home() {
 
   // Function to handle CV download
   const handleDownloadCV = () => {
-    // Construct the file path
     const filePath = process.env.PUBLIC_URL + '/Pdf/CV-27-12-2023.docx.pdf';
-    // Create a new anchor element
-    const link = document.createElement('a');
-    link.href = filePath;
-    link.download = 'CV-27-12-2023.docx.pdf';
-    // Append to the document and trigger download
-    document.body.appendChild(link);
-    link.click();
-    // Remove the link from the document
-    document.body.removeChild(link);
+  
+    fetch(filePath)
+      .then(response => response.blob())
+      .then(blob => {
+        // Create a new anchor element
+        const link = document.createElement('a');
+        link.href = URL.createObjectURL(blob);
+        link.download = 'CV-27-12-2023.docx.pdf';
+  
+        // Append to the document and trigger download
+        document.body.appendChild(link);
+        link.click();
+  
+        // Remove the link from the document
+        document.body.removeChild(link);
+      })
+      .catch(err => console.error('Error downloading the file', err));
   };
-
+  
   // Function to handle opening the GitHub URL in a new tab
   const handleExploreGitHub = () => {
     // Open the URL in a new tab
