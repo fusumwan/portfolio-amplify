@@ -1,6 +1,6 @@
 import React, { useState  } from 'react';
 import './Home.css'; // Make sure the path is correct
-
+// https://docs.amplify.aws/react/prev/build-a-backend/storage/download/
 function Home() {
   // State to manage the glow effect
   const [isHovered, setIsHovered] = useState(false);
@@ -24,7 +24,8 @@ function Home() {
       .then(blob => {
         // Create a new anchor element
         const link = document.createElement('a');
-        link.href = URL.createObjectURL(blob);
+        //link.href = URL.createObjectURL(blob);
+        link.href="https://fusumwan.github.io/portfolio/Pdf/CV-27-12-2023.docx.pdf"
         link.download = 'CV-27-12-2023.docx.pdf';
   
         // Append to the document and trigger download
