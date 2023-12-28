@@ -18,7 +18,7 @@ function Home() {
   // Function to handle CV download
   // Function to handle CV viewing in a new tab
   const handleDownloadCV = () => {
-    const filePath = "https://fusumwan.github.io/portfolio/Pdf/CV-27-12-2023.docx.pdf";
+    const filePath = "https://fusumwan.github.io/portfolio/Pdf/CV-Resume-29-12-2023.docx.pdf";
 
     // Open the PDF in a new tab
     window.open(filePath, '_blank');
@@ -26,7 +26,7 @@ function Home() {
 
   /*
   const handleDownloadCV = () => {
-    const filePath = process.env.PUBLIC_URL + '/Pdf/CV-27-12-2023.docx.pdf';
+    const filePath = process.env.PUBLIC_URL + '/Pdf/CV-Resume-29-12-2023.docx.pdf';
   
     fetch(filePath)
       .then(response => response.blob())
