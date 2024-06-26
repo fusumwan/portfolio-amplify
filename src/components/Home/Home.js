@@ -18,7 +18,7 @@ function Home() {
   // Function to handle CV download
   // Function to handle CV viewing in a new tab
   const handleDownloadCV = () => {
-    const filePath = "https://fusumwan.github.io/portfolio/Pdf/CV-Resume-29-12-2023.docx.pdf";
+    const filePath = "https://fusumwan.github.io/portfolio/Pdf/CV-Resume-09-05-2024.docx.pdf";
 
     // Open the PDF in a new tab
     window.open(filePath, '_blank');
