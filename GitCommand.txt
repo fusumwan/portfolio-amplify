@@ -1,3 +1,7 @@
+npm run build
+npm start
+
+===============================
 git init
 git remote add origin https://github.com/fusumwan/portfolio-amplify.git
 git pull

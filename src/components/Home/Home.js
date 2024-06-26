@@ -17,16 +17,17 @@ function Home() {
 
   // Function to handle CV download
   // Function to handle CV viewing in a new tab
+  /*
   const handleDownloadCV = () => {
     const filePath = "https://fusumwan.github.io/portfolio/Pdf/CV-Resume-09-05-2024.docx.pdf";
 
     // Open the PDF in a new tab
     window.open(filePath, '_blank');
   };
-
-  /*
+  */
+  
   const handleDownloadCV = () => {
-    const filePath = process.env.PUBLIC_URL + '/Pdf/CV-Resume-29-12-2023.docx.pdf';
+    const filePath = process.env.PUBLIC_URL + '/Pdf/CV-Resume-09-05-2024.docx.pdf';
   
     fetch(filePath)
       .then(response => response.blob())
@@ -34,7 +35,7 @@ function Home() {
         // Create a new anchor element
         const link = document.createElement('a');
         //link.href = URL.createObjectURL(blob);
-        link.href="https://fusumwan.github.io/portfolio/Pdf/CV-27-12-2023.docx.pdf"
+        link.href="/Pdf/CV-Resume-09-05-2024.docx.pdf"
         link.download = 'CV-27-12-2023.docx.pdf';
   
         // Append to the document and trigger download
@@ -46,7 +47,7 @@ function Home() {
       })
       .catch(err => console.error('Error downloading the file', err));
   };
-  */
+  
   // Function to handle opening the GitHub URL in a new tab
   const handleExploreGitHub = () => {
     // Open the URL in a new tab
