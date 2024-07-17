@@ -11,3 +11,8 @@ git pull
 git add .
 git commit -m "Initial project commit"
 git push --set-upstream origin main
+
+
+====================
+
+https://main.dvnq4p5zmaq26.amplifyapp.com/

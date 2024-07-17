@@ -58,6 +58,28 @@ function AIProjects() {
       id: '3',
       name: (
         <div>
+        <p>CNN Image Classification</p> 
+        <p>(Load and normalize the CIFAR-10 dataset for image classify)</p>
+        </div>
+      ),
+      description: (
+        <div>
+          <iframe
+            width="275"
+            height="157"
+            src="https://www.youtube.com/embed/F1dVSX6RJ9I"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+            title="CNN Image Classification"
+          ></iframe>
+        </div>
+      )
+    },
+    {
+      id: '4',
+      name: (
+        <div>
         <p> TensorFlow & Spring Boot project</p> 
         <p>(Showcases)</p>
         </div>
@@ -77,7 +99,7 @@ function AIProjects() {
       )
     },
     {
-      id: '4',
+      id: '5',
       name: (
         <div>
         <p>A Search for Improved Performance in Regular Expressions(Genetic programming)</p> 
