@@ -119,6 +119,50 @@ function AIProjects() {
           ></iframe>
         </div>
       )
+    },
+    {
+      id: '6',
+      name: (
+        <div>
+        <p> Text to speech web application</p> 
+        <p>(without using python web framework)</p>
+        </div>
+      ),
+      description: (
+        <div>
+          <iframe
+            width="275"
+            height="157"
+            src="https://www.youtube.com/embed/mOngrSQM7vM"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+            title="My first Python text to speech web application (without using python web framework)"
+          ></iframe>
+        </div>
+      )
+    },
+    {
+      id: '7',
+      name: (
+        <div>
+        <p>AI Stock Prediction </p> 
+        <p>(Regression & LSTM & Python )</p>
+        <a href='https://github.com/fusumwan/aistockprediction'>download</a>
+        </div>
+      ),
+      description: (
+        <div>
+          <table  className="table ai-projects-table">
+            <tr>
+              <td style={{ width: '250px' }}>
+              The project aims to use regression and long-term short-term memory network (LSTM) on S&P500 historical stock price data to predict future stock prices during COVID-19. This report is concerned with 4 aspects which are a thorough discussion of previous research, the novelty of method, methodology, and evaluation metric.
+
+              </td>
+            </tr>
+          </table>
+        </div>
+      )
     }
   ], []);
 
