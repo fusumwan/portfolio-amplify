@@ -44,7 +44,7 @@ function PythonProjects() {
           <iframe
             width="275"
             height="157"
-            src="https://www.youtube.com/embed/hNGmDxCtbS0EXyl0JQKnx0"
+            src="https://www.youtube.com/embed/mOngrSQM7vM"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
