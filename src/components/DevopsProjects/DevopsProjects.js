@@ -1,11 +1,11 @@
 import React, { useRef, useMemo } from 'react';
 import { useTable,usePagination  } from 'react-table';
 //npm install react-table
-import './PythonProjects.css'; 
+import './DevopsProjects.css'; 
 import './bootstrap-scoped.css';
 
 
-function PythonProjects() {
+function DevopsProjects() {
   const gridViewRef = useRef(null);
   // Sample data (replace with your actual data)
   const data = useMemo(() => [
@@ -13,8 +13,8 @@ function PythonProjects() {
       id: '1',
       name: (
         <div>
-        <p> Text to speech web application</p> 
-        <p>(without using python web framework)</p>
+        <p> CICD Pipeline</p> 
+        <p>(Deploy Frontend(ReactJS) & Backend(Django) with JWT to EC2 Using GitHub Actions)</p>
         </div>
       ),
       description: (
@@ -22,11 +22,11 @@ function PythonProjects() {
           <iframe
             width="275"
             height="157"
-            src="https://www.youtube.com/embed/hNGmDxCtbS0EXyl0JQKnx0"
+            src="https://www.youtube.com/embed/xNn-EBD0vKw"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
-            title="My first Python text to speech web application (without using python web framework)"
+            title="CICD Pipeline [Frontend(ReactJS) & Backend(Django)]"
           ></iframe>
         </div>
       )
@@ -35,8 +35,8 @@ function PythonProjects() {
       id: '2',
       name: (
         <div>
-        <p> Text to speech web application</p> 
-        <p>(without using python web framework)</p>
+        <p> Kubernetes</p> 
+        <p>(Deploying Applications with Docker to Amazon EKS Using GitHub Actions)</p>
         </div>
       ),
       description: (
@@ -44,34 +44,12 @@ function PythonProjects() {
           <iframe
             width="275"
             height="157"
-            src="https://www.youtube.com/embed/mOngrSQM7vM"
+            src="https://www.youtube.com/embed/cQl5_zPofR0"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
-            title="My first Python text to speech web application (without using python web framework)"
+            title="Kubernetes CICD pipeline [nodejs]"
           ></iframe>
-        </div>
-      )
-    },
-    {
-      id: '3',
-      name: (
-        <div>
-        <p>AI Stock Prediction </p> 
-        <p>(Regression & LSTM & Python )</p>
-        <a href='https://github.com/fusumwan/aistockprediction'>download</a>
-        </div>
-      ),
-      description: (
-        <div>
-          <table  className="table ai-projects-table">
-            <tr>
-              <td style={{ width: '250px' }}>
-              The project aims to use regression and long-term short-term memory network (LSTM) on S&P500 historical stock price data to predict future stock prices during COVID-19. This report is concerned with 4 aspects which are a thorough discussion of previous research, the novelty of method, methodology, and evaluation metric.
-
-              </td>
-            </tr>
-          </table>
         </div>
       )
     }
@@ -179,5 +157,5 @@ function PythonProjects() {
   );
 }
 
-export default PythonProjects;
+export default DevopsProjects;
   

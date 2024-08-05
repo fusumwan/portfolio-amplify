@@ -12,7 +12,7 @@ import SideNav from './components/SideNav/SideNav';
 import ReactJSProjects from './components/ReactJSProjects/ReactJSProjects';
 import JavaProjects from './components/JavaProjects/JavaProjects';
 import AIProjects from './components/AIProjects/AIProjects';
-import PythonProjects from './components/PythonProjects/PythonProjects';
+import DevopsProjects from './components/DevopsProjects/DevopsProjects';
 import VueJSProjects from './components/VueJSProjects/VueJSProjects';
 import CSharpProjects from './components/CSharpProjects/CSharpProjects';
 import CPlusPlusProjects from './components/CPlusPlusProjects/CPlusPlusProjects';
@@ -30,7 +30,7 @@ function App() {
   const [showJavaProjects, setShowJavaProjects] = useState(false);
 
   const [showAIProjects, setShowAIProjects] = useState(false);
-  const [showPythonProjects, setShowPythonProjects] = useState(false);
+  const [showDevopsProjects, setShowDevopsProjects] = useState(false);
   const [showVueJSProjects, setShowVueJSProjects] = useState(false);
   const [showCSharpProjects, setShowCSharpProjects] = useState(false);
   const [showCPlusPlusProjects, setShowCPlusPlusProjects] = useState(false);
@@ -46,7 +46,7 @@ function App() {
     setShowReactJSProjects(false);
     setShowJavaProjects(false);
     setShowAIProjects(false);
-    setShowPythonProjects(false);
+    setShowDevopsProjects(false);
     setShowVueJSProjects(false);
     setShowCSharpProjects(false);
     setShowCPlusPlusProjects(false);
@@ -63,7 +63,7 @@ function App() {
     setShowReactJSProjects(false);
     setShowJavaProjects(false);
     setShowAIProjects(false);
-    setShowPythonProjects(false);
+    setShowDevopsProjects(false);
     setShowVueJSProjects(false);
     setShowCSharpProjects(false);
     setShowCPlusPlusProjects(false);
@@ -80,7 +80,7 @@ function App() {
     setShowReactJSProjects(false);
     setShowJavaProjects(false);
     setShowAIProjects(false);
-    setShowPythonProjects(false);
+    setShowDevopsProjects(false);
     setShowVueJSProjects(false);
     setShowCSharpProjects(false);
     setShowCPlusPlusProjects(false);
@@ -97,7 +97,7 @@ function App() {
     setShowReactJSProjects(false);
     setShowJavaProjects(false);
     setShowAIProjects(false);
-    setShowPythonProjects(false);
+    setShowDevopsProjects(false);
     setShowVueJSProjects(false);
     setShowCSharpProjects(false);
     setShowCPlusPlusProjects(false);
@@ -114,7 +114,7 @@ function App() {
     setShowReactJSProjects(false);
     setShowJavaProjects(false);
     setShowAIProjects(false);
-    setShowPythonProjects(false);
+    setShowDevopsProjects(false);
     setShowVueJSProjects(false);
     setShowCSharpProjects(false);
     setShowCPlusPlusProjects(false);
@@ -131,7 +131,7 @@ function App() {
     setShowReactJSProjects(false); // Ensure the other component is hidden
     setShowJavaProjects(false);
     setShowAIProjects(false);
-    setShowPythonProjects(false);
+    setShowDevopsProjects(false);
     setShowVueJSProjects(false);
     setShowCSharpProjects(false);
     setShowCPlusPlusProjects(false);
@@ -148,7 +148,7 @@ function App() {
     setShowReactJSProjects(true);
     setShowJavaProjects(false);
     setShowAIProjects(false);
-    setShowPythonProjects(false);
+    setShowDevopsProjects(false);
     setShowVueJSProjects(false);
     setShowCSharpProjects(false);
     setShowCPlusPlusProjects(false);
@@ -166,7 +166,7 @@ function App() {
     setShowReactJSProjects(false);
     setShowJavaProjects(true);
     setShowAIProjects(false);
-    setShowPythonProjects(false);
+    setShowDevopsProjects(false);
     setShowVueJSProjects(false);
     setShowCSharpProjects(false);
     setShowCPlusPlusProjects(false);
@@ -183,13 +183,13 @@ function App() {
     setShowReactJSProjects(false);
     setShowJavaProjects(false);
     setShowAIProjects(true);
-    setShowPythonProjects(false);
+    setShowDevopsProjects(false);
     setShowCSharpProjects(false);
     setShowCPlusPlusProjects(false);
     setShowNodeJSProjects(false);
   };
 
-  const togglePythonProjects = () => {
+  const toggleDevopsProjects = () => {
     setShowHome(false)
     setShowAbout(false)
     setShowExperience(false)
@@ -199,7 +199,7 @@ function App() {
     setShowReactJSProjects(false);
     setShowJavaProjects(false);
     setShowAIProjects(false);
-    setShowPythonProjects(true);
+    setShowDevopsProjects(true);
     setShowVueJSProjects(false);
     setShowCSharpProjects(false);
     setShowCPlusPlusProjects(false);
@@ -216,7 +216,7 @@ function App() {
     setShowReactJSProjects(false);
     setShowJavaProjects(false);
     setShowAIProjects(false);
-    setShowPythonProjects(false);
+    setShowDevopsProjects(false);
     setShowVueJSProjects(true);
     setShowCSharpProjects(false);
     setShowCPlusPlusProjects(false);
@@ -233,7 +233,7 @@ function App() {
     setShowReactJSProjects(false);
     setShowJavaProjects(false);
     setShowAIProjects(false);
-    setShowPythonProjects(false);
+    setShowDevopsProjects(false);
     setShowVueJSProjects(false);
     setShowCSharpProjects(true);
     setShowCPlusPlusProjects(false);
@@ -250,7 +250,7 @@ function App() {
     setShowReactJSProjects(false);
     setShowJavaProjects(false);
     setShowAIProjects(false);
-    setShowPythonProjects(false);
+    setShowDevopsProjects(false);
     setShowVueJSProjects(false);
     setShowCSharpProjects(false);
     setShowCPlusPlusProjects(true);
@@ -267,7 +267,7 @@ function App() {
     setShowReactJSProjects(false);
     setShowJavaProjects(false);
     setShowAIProjects(false);
-    setShowPythonProjects(false);
+    setShowDevopsProjects(false);
     setShowVueJSProjects(false);
     setShowCSharpProjects(false);
     setShowCPlusPlusProjects(false);
@@ -319,7 +319,7 @@ function App() {
         />}
         {showJavaProjects && <JavaProjects></JavaProjects>}
         {showAIProjects && <AIProjects></AIProjects>}
-        {showPythonProjects && <PythonProjects></PythonProjects>}
+        {showDevopsProjects && <DevopsProjects></DevopsProjects>}
         {showVueJSProjects && <VueJSProjects></VueJSProjects>}
         {showCSharpProjects && <CSharpProjects></CSharpProjects>}
         {showCPlusPlusProjects && <CPlusPlusProjects></CPlusPlusProjects>}
@@ -332,7 +332,7 @@ function App() {
           toggleReactJSProjects={toggleReactJSProjects}
           toggleJavaProjects={toggleJavaProjects}
           toggleAIProjects={toggleAIProjects}
-          togglePythonProjects={togglePythonProjects}
+          toggleDevopsProjects={toggleDevopsProjects}
           toggleVueJSProjects={toggleVueJSProjects}
           toggleCSharpProjects={toggleCSharpProjects}
           toggleCPlusPlusProjects={toggleCPlusPlusProjects}

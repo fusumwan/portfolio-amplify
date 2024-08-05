@@ -9,7 +9,7 @@ const SideNav = ({
   toggleReactJSProjects,
   toggleJavaProjects,
   toggleAIProjects,
-  togglePythonProjects,
+  toggleDevopsProjects,
   toggleVueJSProjects,
   toggleCSharpProjects,
   toggleCPlusPlusProjects,
@@ -67,9 +67,9 @@ const SideNav = ({
               <span className="material-icons-round"> smart_toy </span>
               AI & Python Projects
             </a>
-            <a onClick={(e) => { e.preventDefault(); e.stopPropagation(); togglePythonProjects(); }} href="https://main.dvnq4p5zmaq26.amplifyapp.com/" className="item">
+            <a onClick={(e) => { e.preventDefault(); e.stopPropagation(); toggleDevopsProjects(); }} href="https://main.dvnq4p5zmaq26.amplifyapp.com/" className="item">
               <span className="material-icons-round"> science </span>
-              Python Projects
+              Devops Projects
             </a>
             <a onClick={(e) => { e.preventDefault(); e.stopPropagation(); toggleReactJSProjects(); }} href="https://main.dvnq4p5zmaq26.amplifyapp.com/" className="item">
               <span className="material-icons-round"> widgets </span>
