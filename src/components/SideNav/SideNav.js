@@ -65,7 +65,7 @@ const SideNav = ({
             </a>
             <a onClick={(e) => { e.preventDefault(); e.stopPropagation(); toggleAIProjects(); }} href="https://main.dvnq4p5zmaq26.amplifyapp.com/" className="item">
               <span className="material-icons-round"> smart_toy </span>
-              Artificial Intelligence Projects
+              AI & Python Projects
             </a>
             <a onClick={(e) => { e.preventDefault(); e.stopPropagation(); togglePythonProjects(); }} href="https://main.dvnq4p5zmaq26.amplifyapp.com/" className="item">
               <span className="material-icons-round"> science </span>
