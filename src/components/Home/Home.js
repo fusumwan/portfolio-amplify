@@ -19,7 +19,7 @@ function Home() {
   // Function to handle CV viewing in a new tab
  
   const handleDownloadCV = () => {
-    const filePath = "https://fusumwan.github.io/portfolio/Pdf/CV-Resume-09-05-2024.docx.pdf";
+    const filePath = "https://fusumwan.github.io/portfolio/Pdf/CV-Resume-07-08-2024.docx.pdf.pdf";
 
     // Open the PDF in a new tab
     window.open(filePath, '_blank');
@@ -27,7 +27,7 @@ function Home() {
  
   /*
   const handleDownloadCV = () => {
-    const filePath = process.env.PUBLIC_URL + '/Pdf/CV-Resume-09-05-2024.docx.pdf';
+    const filePath = process.env.PUBLIC_URL + '/Pdf/CV-Resume-07-08-2024.docx.pdf.pdf';
   
     fetch(filePath)
       .then(response => response.blob())
@@ -35,7 +35,7 @@ function Home() {
         // Create a new anchor element
         const link = document.createElement('a');
         //link.href = URL.createObjectURL(blob);
-        link.href="/Pdf/CV-Resume-09-05-2024.docx.pdf"
+        link.href="/Pdf/CV-Resume-07-08-2024.docx.pdf.pdf"
         link.download = 'CV-27-12-2023.docx.pdf';
   
         // Append to the document and trigger download
