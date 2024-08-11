@@ -190,6 +190,30 @@ function AIProjects() {
         </div>
       )
     }
+    ,
+    {
+      id: '8',
+      name: (
+        <div>
+        <p>Embedding (My own design))</p> 
+        <p>(English Article Feature Extraction)</p>
+        <a href='https://lm6pzqjqf7vqc5dh5pjuzfr6gy0mzlvi.lambda-url.ap-southeast-2.on.aws//'>Web link</a>
+        </div>
+      ),
+      description: (
+        <div>
+          <table  className="table ai-projects-table">
+            <tr>
+              <td style={{ width: '250px' }}>
+              <p>
+              An embedding is a relatively low-dimensional space into which you can translate high-dimensional vectors. Embeddings make it easier to do machine learning on large inputs like sparse vectors representing words. Ideally, an embedding captures some of the semantics of the input by placing semantically similar inputs close together in the embedding space. An embedding can be learned and reused across models.
+              </p>
+              </td>
+            </tr>
+          </table>
+        </div>
+      )
+    }
   ], []);
 
   // Define columns with custom render functions
