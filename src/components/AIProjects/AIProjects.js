@@ -197,7 +197,7 @@ function AIProjects() {
         <div>
         <p>Embedding (My own design))</p> 
         <p>(English Article Feature Extraction)</p>
-        <a href='https://lm6pzqjqf7vqc5dh5pjuzfr6gy0mzlvi.lambda-url.ap-southeast-2.on.aws//'>Web link</a>
+        <a href='https://lm6pzqjqf7vqc5dh5pjuzfr6gy0mzlvi.lambda-url.ap-southeast-2.on.aws'>Web link</a>
         </div>
       ),
       description: (
