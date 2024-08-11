@@ -198,7 +198,7 @@ function AIProjects() {
     setPageSize,
     state: { pageIndex, pageSize },
   } = useTable(
-    { columns, data, initialState: { pageIndex: 0, pageSize: 2 } }, // Set initial page size
+    { columns, data, initialState: { pageIndex: 0, pageSize: 1 } }, // Set initial page size
     usePagination
   );
 
