@@ -163,6 +163,32 @@ function AIProjects() {
           </table>
         </div>
       )
+    },
+    {
+      id: '7',
+      name: (
+        <div>
+        <p>Naive Bayes </p> 
+        <p>(Sentiment Analysis)</p>
+        <a href='https://xedvmjc43yx2jrg2qwgv2774ru0abdqb.lambda-url.ap-southeast-2.on.aws/'>Web link</a>
+        </div>
+      ),
+      description: (
+        <div>
+          <table  className="table ai-projects-table">
+            <tr>
+              <td style={{ width: '250px' }}>
+              <p>
+              Contextual Understanding: The chatbot can maintain the context better by understanding the user's mood and intent, adjusting its behavior accordingly. This leads to a more fluid and engaging conversation.
+              </p>
+              <p>
+              Empathy and Patience: The bot can demonstrate patience and empathy, similar to how a human would in a conversation, by detecting when the user is hesitant or unsure and responding with care rather than pushing for immediate answers.
+              </p>
+              </td>
+            </tr>
+          </table>
+        </div>
+      )
     }
   ], []);
 
