@@ -192,7 +192,7 @@ function AIProjects() {
     }
     ,
     {
-      id: '8',
+      id: '9',
       name: (
         <div>
         <p>Embedding (My own design))</p> 
