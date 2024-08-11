@@ -305,7 +305,7 @@ function AIProjects() {
                 setPageSize(Number(e.target.value));
               }}
             >
-              {[2,3].map(pageSize => (
+              {[1,2].map(pageSize => (
                 <option key={pageSize} value={pageSize}>
                   Show {pageSize}
                 </option>
