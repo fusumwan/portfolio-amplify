@@ -165,7 +165,7 @@ function AIProjects() {
       )
     },
     {
-      id: '7',
+      id: '8',
       name: (
         <div>
         <p>Naive Bayes </p> 
