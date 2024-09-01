@@ -15,6 +15,29 @@ function ReactJSProjects({ onShowBgVideo, onShowLoadingAnimation }) {
       id: '1',
       name: (
         <div>
+        <p>Restaurant website (ReactJS & Typescript)</p> 
+        <p>Mastering Advanced ReactJS Architecture: </p>
+        <p>A Deep Dive into High-End Design Patterns of Front End Development.</p>
+        </div>
+      ),
+      description: (
+        <div>
+          <iframe
+            width="275"
+            height="157"
+            src="https://www.youtube.com/embed/Ma9VU2-ayyU"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+            title="Mastering Advanced ReactJS Architecture: A Deep Dive into High-End Design Patterns of Front End Development."
+          ></iframe>
+        </div>
+      )
+    },
+    {
+      id: '2',
+      name: (
+        <div>
         <p>Personal Portfolio</p> 
         <p>(ReactJS Website)</p>
         <a href='https://main.dvnq4p5zmaq26.amplifyapp.com/'  target="_blank" rel="noopener noreferrer">Portfolio</a>
@@ -37,12 +60,12 @@ function ReactJSProjects({ onShowBgVideo, onShowLoadingAnimation }) {
       )
     },
     {
-      id: '2',
+      id: '3',
       name: <a href="https://main.dvnq4p5zmaq26.amplifyapp.com/" onClick={(e) => { e.preventDefault(); e.stopPropagation(); onShowBgVideo(); }}>Show Background Video</a>,
       description: 'This program is showing a Background Video program'
     },
     {
-      id: '3',
+      id: '4',
       name: <a href="https://main.dvnq4p5zmaq26.amplifyapp.com/" onClick={(e) => { e.preventDefault(); e.stopPropagation(); onShowLoadingAnimation(); }}>Show Loading Animation</a>,
       description: 'This program is showing a Loading Animation'
     }
