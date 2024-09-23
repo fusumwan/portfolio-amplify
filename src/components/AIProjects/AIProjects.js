@@ -214,7 +214,100 @@ function AIProjects() {
         </div>
       )
     }
-  ], []);
+    ,
+    {
+      id: '10',
+      name: (
+        <div>
+        <p>Reinforcement Learning from Human Feedback (RLHF)</p> 
+        <a href='https://llfsqhjaxykgawor6dyqsdapty0hspio.lambda-url.ap-southeast-2.on.aws/'>Web link</a>
+        </div>
+      ),
+      description: (
+        <div>
+          <table  className="table ai-projects-table">
+            <tr>
+              <td style={{ width: '250px' }}>
+              <p>
+              The application design for the program integrates Reinforcement Learning from Human Feedback (RLHF). Users input labeled data (positive or negative), train the model using a defined training/testing split, and test the model’s predictions. Incorrect predictions can be corrected through user feedback, allowing the model to learn and improve based on real-time human input. The system leverages FastAPI for backend operations, TensorFlow for model training, and feedback refinement through user interaction.
+              </p>
+              </td>
+            </tr>
+          </table>
+        </div>
+      )
+    }
+    ,
+    {
+      id: '11',
+      name: (
+        <div>
+        <p>PPO (Proximal Policy Optimization)</p> 
+        <a href='https://hxwu33xn7xnepsuystl5zalrcq0wtfkr.lambda-url.ap-southeast-2.on.aws/'>Web link</a>
+        </div>
+      ),
+      description: (
+        <div>
+          <table  className="table ai-projects-table">
+            <tr>
+              <td style={{ width: '250px' }}>
+              <p>
+              The PPO (Proximal Policy Optimization) design in this program is implemented using TensorFlow to train and test reinforcement learning models. Users can adjust the training data percentage via a slider, train the model using sample JSON data, and test the model’s performance. The program includes functionalities to save and load the model, providing flexibility for real-time reinforcement learning experiments through a simple web interface.
+              </p>
+              </td>
+            </tr>
+          </table>
+        </div>
+      )
+    }
+    ,
+    {
+      id: '12',
+      name: (
+        <div>
+        <p>DPO (Direct Policy Optimization)</p> 
+        <a href='https://ztjukp5kn3v4pkbwiqewrluspm0smyxv.lambda-url.ap-southeast-2.on.aws/'>Web link</a>
+        </div>
+      ),
+      description: (
+        <div>
+          <table  className="table ai-projects-table">
+            <tr>
+              <td style={{ width: '250px' }}>
+              <p>
+              The DPO (Direct Policy Optimization) algorithm in your program facilitates reinforcement learning by optimizing a policy directly from data. It uses a training/test data split, allowing users to input raw environment data, adjust the split, and train a model. The trained model is evaluated in a testing phase, with results displayed to the user. This approach optimizes policy without requiring a model of the environment, making it efficient for learning from raw data in complex systems.
+              </p>
+              </td>
+            </tr>
+          </table>
+        </div>
+      )
+    }
+    ,
+    {
+      id: '13',
+      name: (
+        <div>
+        <p>KTO Reinforcement Learning algorithm program</p> 
+        <a href='https://fno535vch3lpxmevuqye3nhtnu0nxuhl.lambda-url.ap-southeast-2.on.aws/'>Web link</a>
+        </div>
+      ),
+      description: (
+        <div>
+          <table  className="table ai-projects-table">
+            <tr>
+              <td style={{ width: '250px' }}>
+              <p>
+              The KTO Reinforcement Learning algorithm in the program utilizes raw data input to train a model with adjustable training/testing splits. The user can manipulate training data percentages and input their raw data. The model is trained upon user command, and its performance can be tested afterward. The design includes a clear, interactive UI with sliders, buttons, and results displayed in real-time, leveraging TensorFlow for the model's functionality.
+              </p>
+              </td>
+            </tr>
+          </table>
+        </div>
+      )
+    }
+  ],
+  []);
 
   // Define columns with custom render functions
   const columns = useMemo(() => [
