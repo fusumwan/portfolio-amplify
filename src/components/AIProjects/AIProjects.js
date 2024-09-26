@@ -16,6 +16,9 @@ function AIProjects() {
         <p>RAG AI Project</p> 
         <p>(RAG + Langchain + Chroma +OpenAI+ FastAPI Python Project:)</p>
         <p>(Easy AI/Chat/Talk For Your Docs)</p>
+        <p><a href='https://learnwiseaiwebapp-82082989871.australia-southeast2.run.app' target="_blank" rel="noopener noreferrer">Website link</a></p>
+        <p>Login Id : admin</p>
+        <p>Password : test123</p>
         </div>
       ),
       description: (
