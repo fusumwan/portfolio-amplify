@@ -17,6 +17,7 @@ import VueJSProjects from './components/VueJSProjects/VueJSProjects';
 import CSharpProjects from './components/CSharpProjects/CSharpProjects';
 import CPlusPlusProjects from './components/CPlusPlusProjects/CPlusPlusProjects';
 import NodeJSProjects from './components/NodeJSProjects/NodeJSProjects';
+import DataScienceProjects from './components/DataScienceProjects/DataScienceProjects';
 
 function App() {
   const [showHome, setShowHome] = useState(false);
@@ -35,7 +36,7 @@ function App() {
   const [showCSharpProjects, setShowCSharpProjects] = useState(false);
   const [showCPlusPlusProjects, setShowCPlusPlusProjects] = useState(false);
   const [showNodeJSProjects,setShowNodeJSProjects] = useState(false);
-
+  const [showDataScienceProjects,setShowDataScienceProjects] = useState(false);
   const toggleHome = () => {
     setShowHome(true)
     setShowAbout(false)
@@ -51,6 +52,7 @@ function App() {
     setShowCSharpProjects(false);
     setShowCPlusPlusProjects(false);
     setShowNodeJSProjects(false);
+    setShowDataScienceProjects(false);
   };
 
   const toggleAbout = () => {
@@ -68,6 +70,7 @@ function App() {
     setShowCSharpProjects(false);
     setShowCPlusPlusProjects(false);
     setShowNodeJSProjects(false);
+    setShowDataScienceProjects(false);
   };
 
   const toggleContact = () => {
@@ -85,6 +88,7 @@ function App() {
     setShowCSharpProjects(false);
     setShowCPlusPlusProjects(false);
     setShowNodeJSProjects(false);
+    setShowDataScienceProjects(false);
   };
 
   const toggleExperience = () => {
@@ -102,6 +106,7 @@ function App() {
     setShowCSharpProjects(false);
     setShowCPlusPlusProjects(false);
     setShowNodeJSProjects(false);
+    setShowDataScienceProjects(false);
   };
 
   const toggleBgVideo = () => {
@@ -119,6 +124,7 @@ function App() {
     setShowCSharpProjects(false);
     setShowCPlusPlusProjects(false);
     setShowNodeJSProjects(false);
+    setShowDataScienceProjects(false);
   };
 
   const toggleLoadingAnimation = () => {
@@ -136,6 +142,7 @@ function App() {
     setShowCSharpProjects(false);
     setShowCPlusPlusProjects(false);
     setShowNodeJSProjects(false);
+    setShowDataScienceProjects(false);
   };
 
   const toggleReactJSProjects = () => {
@@ -153,6 +160,7 @@ function App() {
     setShowCSharpProjects(false);
     setShowCPlusPlusProjects(false);
     setShowNodeJSProjects(false);
+    setShowDataScienceProjects(false);
   };
 
   
@@ -171,6 +179,7 @@ function App() {
     setShowCSharpProjects(false);
     setShowCPlusPlusProjects(false);
     setShowNodeJSProjects(false);
+    setShowDataScienceProjects(false);
   };
 
   const toggleAIProjects = () => {
@@ -187,6 +196,7 @@ function App() {
     setShowCSharpProjects(false);
     setShowCPlusPlusProjects(false);
     setShowNodeJSProjects(false);
+    setShowDataScienceProjects(false);
   };
 
   const toggleDevopsProjects = () => {
@@ -204,6 +214,7 @@ function App() {
     setShowCSharpProjects(false);
     setShowCPlusPlusProjects(false);
     setShowNodeJSProjects(false);
+    setShowDataScienceProjects(false);
   };
 
   const toggleVueJSProjects = () => {
@@ -221,6 +232,7 @@ function App() {
     setShowCSharpProjects(false);
     setShowCPlusPlusProjects(false);
     setShowNodeJSProjects(false);
+    setShowDataScienceProjects(false);
   }
 
   const toggleCSharpProjects = () => {
@@ -238,6 +250,7 @@ function App() {
     setShowCSharpProjects(true);
     setShowCPlusPlusProjects(false);
     setShowNodeJSProjects(false);
+    setShowDataScienceProjects(false);
   }
 
   const toggleCPlusPlusProjects = () => {
@@ -255,6 +268,7 @@ function App() {
     setShowCSharpProjects(false);
     setShowCPlusPlusProjects(true);
     setShowNodeJSProjects(false);
+    setShowDataScienceProjects(false);
   }
 
   const toggleNodeJSProjects = () => {
@@ -272,8 +286,26 @@ function App() {
     setShowCSharpProjects(false);
     setShowCPlusPlusProjects(false);
     setShowNodeJSProjects(true);
+    setShowDataScienceProjects(false);
   }
 
+  const toggleDataScienceProjects = () => {
+    setShowHome(false)
+    setShowAbout(false)
+    setShowExperience(false)
+    setShowContact(false)
+    setShowBgVideo(false); // Ensure the other component is hidden
+    setShowLoadingAnimation(false); // Ensure the other component is hidden
+    setShowReactJSProjects(false);
+    setShowJavaProjects(false);
+    setShowAIProjects(false);
+    setShowDevopsProjects(false);
+    setShowVueJSProjects(false);
+    setShowCSharpProjects(false);
+    setShowCPlusPlusProjects(false);
+    setShowNodeJSProjects(false);
+    setShowDataScienceProjects(true);
+  }
 
   const toggleOnload = () => {
     if (window.innerWidth > 700) {
@@ -324,6 +356,7 @@ function App() {
         {showCSharpProjects && <CSharpProjects></CSharpProjects>}
         {showCPlusPlusProjects && <CPlusPlusProjects></CPlusPlusProjects>}
         {showNodeJSProjects && <NodeJSProjects></NodeJSProjects>}
+        {showDataScienceProjects && <DataScienceProjects></DataScienceProjects>}
         <SideNav
           toggleHome={toggleHome}
           toggleAbout={toggleAbout}
@@ -337,6 +370,7 @@ function App() {
           toggleCSharpProjects={toggleCSharpProjects}
           toggleCPlusPlusProjects={toggleCPlusPlusProjects}
           toggleNodeJSProjects={toggleNodeJSProjects}
+          toggleDataScienceProjects={toggleDataScienceProjects}
         />
       </header>
     </div>

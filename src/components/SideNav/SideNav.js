@@ -13,7 +13,8 @@ const SideNav = ({
   toggleVueJSProjects,
   toggleCSharpProjects,
   toggleCPlusPlusProjects,
-  toggleNodeJSProjects }) => {
+  toggleNodeJSProjects,
+  toggleDataScienceProjects }) => {
   return (
     <div className="center">
       <button type="button" className="btn open">
@@ -87,7 +88,10 @@ const SideNav = ({
               <span className="material-icons-round"> router </span>
               NodeJS Projects
             </a>
-            
+            <a onClick={(e) => { e.preventDefault(); e.stopPropagation(); toggleDataScienceProjects(); }} href="https://main.dvnq4p5zmaq26.amplifyapp.com/" className="item">
+              <span className="material-icons-round"> router </span>
+              DataScience Projects
+            </a>
           </div>
         </div>
         
