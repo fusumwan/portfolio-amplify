@@ -13,25 +13,41 @@ function AIProjects() {
       id: '1',
       name: (
         <div>
-        <p>RAG AI Project</p> 
+        <p>Fuyika RAG AI Webapplication</p> 
         <p>(RAG + Langchain + Chroma +OpenAI+ FastAPI Python Project:)</p>
         <p>(Easy AI/Chat/Talk For Your Docs)</p>
-        <p><a href='https://learnwiseaiwebapp-82082989871.australia-southeast2.run.app' target="_blank" rel="noopener noreferrer">Website link</a></p>
+        <p><a href='https://learnwiseaiwebapp-82082989871.us-central1.run.app' target="_blank" rel="noopener noreferrer">Website link</a></p>
         <p>Login Id : admin</p>
         <p>Password : test123</p>
         </div>
       ),
       description: (
         <div>
-          <iframe
-            width="275"
-            height="157"
-            src="https://www.youtube.com/embed/bhMfwEv48hY"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-            title="Easy AI/Chat/Talk For Your Docs"
-          ></iframe>
+          <table>
+            <tr>
+              <td>
+              <iframe
+                width="275"
+                height="157"
+                src="https://www.youtube.com/embed/bhMfwEv48hY"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                title="Easy AI/Chat/Talk For Your Docs"
+              ></iframe>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                
+
+              <p><a href='https://itinformationinsight.blogspot.com/2024/10/ai-web-application-for-fuyika-phase-1.html' target="_blank" rel="noopener noreferrer">Fuyika RAG Application description Website link</a></p>
+
+              </td>
+            </tr>
+          </table>
+
+          
         </div>
       )
     },

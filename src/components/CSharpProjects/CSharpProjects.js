@@ -13,8 +13,9 @@ function CSharpProjects() {
       id: '1',
       name: (
         <div>
-        <p>PCCW 3G Retention</p> 
-        <p>(Asp.net C# Web development)</p>
+        <p>PCCW 3G Retention(Asp.net C# Web development)</p> 
+        <p>From 2008 to 2012, I held a pivotal role in developing key systems that bolstered the operational efficiency of PCCW's consumer group call centers.</p> 
+
         <a href='https://github.com/fusumwan/CSharpWebProject/tree/main/RETENTION_ZIP'>download</a>
         </div>
       ),
@@ -33,8 +34,39 @@ function CSharpProjects() {
             <tr>
             <td  style={{ width: '300px' }}>
             <p>This project represents a major milestone in my career and showcases a blend of innovative technology and strategic thinking.</p>
-<p>From 2008 to 2012, I held a pivotal role in developing key systems that bolstered the operational efficiency of PCCW's consumer group call centers.</p> 
-<p>Notably, I independently designed and executed the PCCW 3G Mobile Retention Order System, a substantial and complex project during this period.</p>
+            <p>Notably, I independently designed and executed the PCCW 3G Mobile Retention Order System, a substantial and complex project during this period.</p>
+            </td>
+            </tr>
+          </table>
+          
+
+        </div>
+      )
+    },
+    {
+      id: '2',
+      name: (
+        <div>
+        <p>Authentication in Asp.net Core without AuthenticationHandler</p> 
+
+        </div>
+      ),
+      description: (
+        <div>
+          <iframe
+            width="275"
+            height="157"
+            src="https://www.youtube.com/embed/fMBfh1AyaX4"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+            title="Authentication in Asp.net"
+          ></iframe>
+          <table>
+            <tr>
+            <td  style={{ width: '300px' }}>
+            <p>Custom Authentication in Asp.net Core without AuthenticationHandler in a more granular approach.</p>
+
             </td>
             </tr>
           </table>
@@ -43,6 +75,42 @@ function CSharpProjects() {
         </div>
       )
     }
+    ,
+    {
+      id: '3',
+      name: (
+        <div>
+        <p>Entity framework core projects</p> 
+        <p>Creating a Entity framework core project for building my Entity framework core tutorial in Youtube.</p>
+            
+        </div>
+      ),
+      description: (
+        <div>
+          <iframe
+            width="275"
+            height="157"
+            src="https://www.youtube.com/embed/ETxOfwj6QXc"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+            title="Entity framework core tutorial 1"
+          ></iframe>
+          <table>
+            <tr>
+            <td  style={{ width: '300px' }}>
+            <p></p>
+            <a href='https://www.youtube.com/watch?v=ETxOfwj6QXc&list=PLCGUIZTAlaI5gusCniTvXrEaF99AhoHqc'>My Youtube Channel</a>
+            </td>
+            </tr>
+          </table>
+          
+
+        </div>
+      )
+    }
+    
+
   ], []);
 
   // Define columns with custom render functions
@@ -77,7 +145,7 @@ function CSharpProjects() {
     setPageSize,
     state: { pageIndex, pageSize },
   } = useTable(
-    { columns, data, initialState: { pageIndex: 0, pageSize: 2 } }, // Set initial page size
+    { columns, data, initialState: { pageIndex: 0, pageSize: 1 } }, // Set initial page size
     usePagination
   );
 
@@ -134,7 +202,7 @@ function CSharpProjects() {
                 setPageSize(Number(e.target.value));
               }}
             >
-              {[2,3].map(pageSize => (
+              {[1,2].map(pageSize => (
                 <option key={pageSize} value={pageSize}>
                   Show {pageSize}
                 </option>
