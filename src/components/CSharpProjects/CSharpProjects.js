@@ -80,8 +80,9 @@ function CSharpProjects() {
       id: '3',
       name: (
         <div>
-        <p>KNN Text Classification</p> 
-        <a href='https://frontendapp1-82082989871.us-central1.run.app'>Web link</a>
+        <p>KNN Text Classification</p>
+        <p>This project utilizes React JS and Tailwind CSS for the frontend, ensuring a responsive UI design. The backend is built with ASP.NET WebAPI and employs Data Transfer Objects (DTOs) for structured communication.</p> 
+        <a href='https://frontendapp1-82082989871.us-central1.run.app' target='blank'>Project Demonstration Web link</a>
         </div>
       ),
       description: (
