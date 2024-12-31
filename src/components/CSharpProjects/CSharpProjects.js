@@ -80,6 +80,29 @@ function CSharpProjects() {
       id: '3',
       name: (
         <div>
+        <p>KNN Text Classification</p> 
+        <a href='https://frontendapp1-82082989871.us-central1.run.app'>Web link</a>
+        </div>
+      ),
+      description: (
+        <div>
+          <table  className="table ai-projects-table">
+            <tr>
+              <td style={{ width: '250px' }}>
+              <p>
+              Suppose we have a dataset with headlines categorized as "Technology" or "Entertainment". A new headline, "AI technology revolutionizes entertainment industry," is analyzed using KNN by calculating its similarity to existing headlines. Based on the nearest neighbors, it is classified into the appropriate category.
+              </p>
+              </td>
+            </tr>
+          </table>
+        </div>
+      )
+    }
+    ,
+    {
+      id: '4',
+      name: (
+        <div>
         <p>Entity framework core projects</p> 
         <p>Creating a Entity framework core project for building my Entity framework core tutorial in Youtube.</p>
             
