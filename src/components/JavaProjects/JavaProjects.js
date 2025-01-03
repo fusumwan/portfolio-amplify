@@ -16,7 +16,7 @@ function JavaProjects() {
         <p>Order Table</p> 
         <p>(Spring Boot Project)</p>
         <a href='https://github.com/fusumwan/JavaWebAppProject/tree/main/ordertableweb' target="_blank" rel="noopener noreferrer">download</a>
-        <a href='' target="_blank" rel="noopener noreferrer"></a>
+        <a href='https://ordertableweb-82082989871.us-central1.run.app/ordertableweb/' target="_blank" rel="noopener noreferrer">Project Demonstration Website link</a>
         <table>
           <tr>
             <td style={{ width: '350px' }}>
