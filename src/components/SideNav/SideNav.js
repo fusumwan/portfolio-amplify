@@ -82,7 +82,7 @@ const SideNav = ({
             </a>
             <a onClick={(e) => { e.preventDefault(); e.stopPropagation(); toggleCSharpProjects(); }} href="https://main.dvnq4p5zmaq26.amplifyapp.com/" className="item">
               <span className="material-icons-round"> web </span>
-              Asp.net MVC / C# Projects
+              Asp.net MVC / AI Projects
             </a>
             <a onClick={(e) => { e.preventDefault(); e.stopPropagation(); toggleNodeJSProjects(); }} href="https://main.dvnq4p5zmaq26.amplifyapp.com/" className="item">
               <span className="material-icons-round"> router </span>
