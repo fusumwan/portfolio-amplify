@@ -80,7 +80,7 @@ function CSharpProjects() {
       id: '3',
       name: (
         <div>
-        <p>KNN Text Classification</p>
+        <p>KNN Text Classification( K-Nearest Neighbors algorithm )</p>
         <p>
           This project utilizes <span style={{ color: 'red' }}>React JS</span> and <span style={{ color: 'red' }}>Tailwind CSS</span> for the frontend, ensuring a responsive UI design. The backend is built with <span style={{ color: 'red' }}>ASP.NET WebAPI</span>  and employs Data Transfer Objects (DTOs) for structured communication.
         </p>
