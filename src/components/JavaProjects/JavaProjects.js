@@ -22,6 +22,7 @@ function JavaProjects() {
             <td style={{ width: '350px' }}>
             These projects are showcased on my YouTube channel.
             I am using Java,Spring Boot, Spring Security, Hibernate, Jquery, JWT, bootstrap, JWT,Mysql, and GCP.
+            Testing Acount [LoginID: admin ,  Password:test123]
             </td>
           </tr>
         </table>
