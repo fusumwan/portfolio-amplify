@@ -79,6 +79,7 @@ function AIProjects() {
         <div>
         <p>CNN Image Classification</p> 
         <p>(Load and normalize the CIFAR-10 dataset for image classify)</p>
+        <p><a href='https://cnnimageclassification-82082989871.us-central1.run.app' target="_blank" rel="noopener noreferrer">Website link</a></p>
         </div>
       ),
       description: (
