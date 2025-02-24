@@ -48,7 +48,7 @@ function JavaProjects() {
         <div>
         <p>Order Table</p> 
         <p>(Spring Boot & Security)</p>
-        <a href='https://github.com/fusumwan/JavaWebAppProject/tree/main/ordertableweb' target="_blank" rel="noopener noreferrer">download</a>
+        <a href='https://github.com/fusumwan/ordertablewebopensource' target="_blank" rel="noopener noreferrer">download</a>
 
         </div>
       ),
@@ -72,7 +72,7 @@ function JavaProjects() {
         <div>
         <p>Spring Boot Security JWT Authentication</p> 
         <p>(Without WebSecurityConfigurerAdapter) (part 1)</p>
-        <a href='https://github.com/fusumwan/JavaWebAppProject/tree/main/ordertableweb' target="_blank" rel="noopener noreferrer">download</a>
+        <a href='https://github.com/fusumwan/ordertablewebopensource' target="_blank" rel="noopener noreferrer">download</a>
 
         </div>
       ),
@@ -96,7 +96,7 @@ function JavaProjects() {
         <div>
         <p>Spring Boot Security JWT Authentication</p> 
         <p>(Without WebSecurityConfigurerAdapter) (part 2)</p>
-        <a href='https://github.com/fusumwan/JavaWebAppProject/tree/main/ordertableweb' target="_blank" rel="noopener noreferrer">download</a>
+        <a href='https://github.com/fusumwan/ordertablewebopensource' target="_blank" rel="noopener noreferrer">download</a>
 
         </div>
       ),
@@ -120,7 +120,7 @@ function JavaProjects() {
         <div>
         <p>Spring Boot Security JWT Authentication</p> 
         <p>(Without WebSecurityConfigurerAdapter) (part 2)</p>
-        <a href='https://github.com/fusumwan/JavaWebAppProject/tree/main/ordertableweb' target="_blank" rel="noopener noreferrer">download</a>
+        <a href='https://github.com/fusumwan/ordertablewebopensource' target="_blank" rel="noopener noreferrer">download</a>
 
         </div>
       ),
