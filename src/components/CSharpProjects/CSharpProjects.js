@@ -149,7 +149,7 @@ function CSharpProjects() {
           <iframe
             width="275"
             height="157"
-            src="https://youtu.be/yiWofSsk-ro"
+            src="https://www.youtube.com/embed/yiWofSsk-ro"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
