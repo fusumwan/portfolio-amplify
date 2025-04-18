@@ -134,7 +134,39 @@ function CSharpProjects() {
 
         </div>
       )
+    },
+    {
+      id: '5',
+      name: (
+        <div>
+        <p>payment gateway integration in asp.net core</p> 
+        <p>To integrate a payment gateway in ASP.NET Core, you can use a library like Paypal. This library can be used to create a charge on the back-end controller. You can create an ASP.NET Core MVC project using Visual Studio 2022 and add the Razorpay package in Nuget.</p>
+
+        </div>
+      ),
+      description: (
+        <div>
+          <iframe
+            width="275"
+            height="157"
+            src="https://youtu.be/yiWofSsk-ro"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+            title="Entity framework core tutorial 1PayPal Integration in ASP.NET Core MVC (Demonstration)"
+          ></iframe>
+          <table>
+            <tr>
+            <td  style={{ width: '300px' }}>
+            <p></p>
+            <a href='https://paypalgatewaylive-82082989871.us-central1.run.app'>Demo Website</a>
+            </td>
+            </tr>
+          </table>
+        </div>
+      )
     }
+    
     
 
   ], []);
