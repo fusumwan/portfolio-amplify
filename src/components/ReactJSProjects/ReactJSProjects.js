@@ -18,7 +18,7 @@ function ReactJSProjects({ onShowBgVideo, onShowLoadingAnimation }) {
         <p>Restaurant website (ReactJS & Typescript)</p> 
         <p>Mastering Advanced ReactJS Architecture: </p>
         <p>A Deep Dive into High-End Design Patterns of Front End Development.</p>
-        <a href='https://react-ts-restaurant-82082989871.us-central1.run.app' target='blank'>Project Demonstration Web link</a>
+        <a href='https://react-ts-restaurant2-82082989871.us-central1.run.app/' target='blank'>Project Demonstration Web link</a>
 
         </div>
       ),
