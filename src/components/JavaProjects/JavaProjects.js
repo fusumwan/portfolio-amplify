@@ -13,6 +13,32 @@ function JavaProjects() {
       id: '1',
       name: (
         <div>
+        <p>Spring Boot Tutorials Website</p> 
+        <p>(Spring Boot + JPA)</p>
+        <a href='https://springboottutorials-82082989871.northamerica-northeast1.run.app/springboottutorials/'  target="_blank" rel="noopener noreferrer">Spring Boot Tutorials Website</a>
+        </div>
+      ),
+      description: (
+        <div>
+          <table  className="table">
+            <tr>
+              <td>
+              <img src={process.env.PUBLIC_URL + '/Images/SpringBootTutorialsScreenshot1.png'} style={{ width: "260px", height: "150px" }} alt="Profile" />
+              </td>
+            </tr>
+            <tr>
+              <td style={{ width: '350px' }}>
+              This Spring Boot tutorials website serves as a comprehensive learning platform covering key topics such as application lifecycle, design patterns, performance optimization, security, configuration, and more. It features interactive demos to enhance understanding and is also intended to showcase my practical knowledge and expertise in Spring Boot development.
+              </td>
+            </tr>
+          </table>
+        </div>
+      )
+    },
+    {
+      id: '2',
+      name: (
+        <div>
         <p>Order Table</p> 
         <p>(Spring Boot Project)</p>
         <a href='https://github.com/fusumwan/ordertablewebopensource' target="_blank" rel="noopener noreferrer">download</a>
@@ -43,7 +69,7 @@ function JavaProjects() {
       )
     },
     {
-      id: '2',
+      id: '3',
       name: (
         <div>
         <p>Order Table</p> 
@@ -67,7 +93,7 @@ function JavaProjects() {
       )
     },
     {
-      id: '3',
+      id: '4',
       name:  (
         <div>
         <p>Spring Boot Security JWT Authentication</p> 
@@ -91,55 +117,55 @@ function JavaProjects() {
       )
     },
     {
-      id: '4',
-      name:  (
-        <div>
-        <p>Spring Boot Security JWT Authentication</p> 
-        <p>(Without WebSecurityConfigurerAdapter) (part 2)</p>
-        <a href='https://github.com/fusumwan/ordertablewebopensource' target="_blank" rel="noopener noreferrer">download</a>
-
-        </div>
-      ),
-      description: (
-        <div>
-          <iframe
-            width="275"
-            height="157"
-            src="https://www.youtube.com/embed/pyC_9Y_SsEg"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-            title="Spring Boot Security JWT Authentication (Without WebSecurityConfigurerAdapter) (part 2)"
-          ></iframe>
-        </div>
-      )
-    },
-    {
-      id: '4',
-      name:  (
-        <div>
-        <p>Spring Boot Security JWT Authentication</p> 
-        <p>(Without WebSecurityConfigurerAdapter) (part 2)</p>
-        <a href='https://github.com/fusumwan/ordertablewebopensource' target="_blank" rel="noopener noreferrer">download</a>
-
-        </div>
-      ),
-      description: (
-        <div>
-          <iframe
-            width="275"
-            height="157"
-            src="https://www.youtube.com/embed/pyC_9Y_SsEg"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-            title="Spring Boot Security JWT Authentication (Without WebSecurityConfigurerAdapter) (part 2)"
-          ></iframe>
-        </div>
-      )
-    },
-    {
       id: '5',
+      name:  (
+        <div>
+        <p>Spring Boot Security JWT Authentication</p> 
+        <p>(Without WebSecurityConfigurerAdapter) (part 2)</p>
+        <a href='https://github.com/fusumwan/ordertablewebopensource' target="_blank" rel="noopener noreferrer">download</a>
+
+        </div>
+      ),
+      description: (
+        <div>
+          <iframe
+            width="275"
+            height="157"
+            src="https://www.youtube.com/embed/pyC_9Y_SsEg"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+            title="Spring Boot Security JWT Authentication (Without WebSecurityConfigurerAdapter) (part 2)"
+          ></iframe>
+        </div>
+      )
+    },
+    {
+      id: '6',
+      name:  (
+        <div>
+        <p>Spring Boot Security JWT Authentication</p> 
+        <p>(Without WebSecurityConfigurerAdapter) (part 2)</p>
+        <a href='https://github.com/fusumwan/ordertablewebopensource' target="_blank" rel="noopener noreferrer">download</a>
+
+        </div>
+      ),
+      description: (
+        <div>
+          <iframe
+            width="275"
+            height="157"
+            src="https://www.youtube.com/embed/pyC_9Y_SsEg"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+            title="Spring Boot Security JWT Authentication (Without WebSecurityConfigurerAdapter) (part 2)"
+          ></iframe>
+        </div>
+      )
+    },
+    {
+      id: '7',
       name:  (
         <div>
         <p>English learning platform</p> 
@@ -163,7 +189,7 @@ function JavaProjects() {
       )
     },
     {
-      id: '6',
+      id: '8',
       name:  (
         <div>
         <p>English learning platform</p> 
@@ -187,7 +213,7 @@ function JavaProjects() {
       )
     },
     {
-      id: '7',
+      id: '9',
       name:  (
         <div>
         <p>English learning platform</p> 
@@ -211,7 +237,7 @@ function JavaProjects() {
       )
     },
     {
-      id: '8',
+      id: '10',
       name:  (
         <div>
         <p>Spring Boot work with Hadoop</p> 
