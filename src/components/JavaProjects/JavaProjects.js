@@ -13,8 +13,8 @@ function JavaProjects() {
       id: '1',
       name: (
         <div>
-        <p>Spring Boot Tutorials Website</p> 
-        <p>(Spring Boot + JPA)</p>
+        <p> Spring Boot Interactive Tutorials</p> 
+        <p>(This Spring Boot tutorials website serves as a comprehensive learning platform covering key topics such as application lifecycle, design patterns, performance optimization, security, configuration, and more.)</p>
         <a href='https://springboottutorials-82082989871.northamerica-northeast1.run.app/springboottutorials/'  target="_blank" rel="noopener noreferrer">Spring Boot Tutorials Website</a>
         </div>
       ),
@@ -28,7 +28,7 @@ function JavaProjects() {
             </tr>
             <tr>
               <td style={{ width: '350px' }}>
-              This Spring Boot tutorials website serves as a comprehensive learning platform covering key topics such as application lifecycle, design patterns, performance optimization, security, configuration, and more. It features interactive demos to enhance understanding and is also intended to showcase my practical knowledge and expertise in Spring Boot development.
+               It features interactive demos to enhance understanding and is also intended to showcase my practical knowledge and expertise in Spring Boot development.
               </td>
             </tr>
           </table>

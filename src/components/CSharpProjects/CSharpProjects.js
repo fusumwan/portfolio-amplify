@@ -13,6 +13,32 @@ function CSharpProjects() {
       id: '1',
       name: (
         <div>
+        <p>ASP.NET MVC Learning Platform</p> 
+        <p>(Asp.net Core MVC + Entityframework)</p>
+        <a href='https://aspnet7tutorials-82082989871.europe-west1.run.app'  target="_blank" rel="noopener noreferrer">Spring Boot Tutorials Website</a>
+        </div>
+      ),
+      description: (
+        <div>
+          <table  className="table">
+            <tr>
+              <td>
+              <img src={process.env.PUBLIC_URL + '/Images/AspNetMVCTutorialsScreenshot1.png'} style={{ width: "260px", height: "150px" }} alt="Profile" />
+              </td>
+            </tr>
+            <tr>
+              <td style={{ width: '350px' }}>
+              This ASP.NET MVC Tutorials website is designed as a comprehensive learning platform that covers essential topics such as the application lifecycle, design patterns, performance optimization, security, configuration, and real-world practice cases. It includes interactive demonstrations to facilitate hands-on learning and serves as a showcase of my practical skills and expertise in ASP.NET MVC development.
+              </td>
+            </tr>
+          </table>
+        </div>
+      )
+    },
+    {
+      id: '1',
+      name: (
+        <div>
         <p>PCCW 3G Retention(Asp.net C# Web development)</p> 
         <p>From 2008 to 2012, I held a pivotal role in developing key systems that bolstered the operational efficiency of PCCW's consumer group call centers.</p> 
 
