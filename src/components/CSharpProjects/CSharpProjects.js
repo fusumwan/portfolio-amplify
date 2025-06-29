@@ -16,6 +16,9 @@ function CSharpProjects() {
         <p>ASP.NET MVC Learning Platform</p> 
         <p>(Asp.net Core MVC + Entityframework)</p>
         <a href='https://aspnet7tutorials-82082989871.europe-west1.run.app'  target="_blank" rel="noopener noreferrer">Spring Boot Tutorials Website</a>
+        <p>This ASP.NET MVC Tutorials website is designed as a comprehensive learning platform that covers essential topics such as the application lifecycle, design patterns, performance optimization, security, configuration, and real-world practice cases. </p>
+        <p>LoginID: user@gmail.com</p>
+        <p>Password: 1234qwer</p>
         </div>
       ),
       description: (
@@ -28,7 +31,7 @@ function CSharpProjects() {
             </tr>
             <tr>
               <td style={{ width: '350px' }}>
-              This ASP.NET MVC Tutorials website is designed as a comprehensive learning platform that covers essential topics such as the application lifecycle, design patterns, performance optimization, security, configuration, and real-world practice cases. It includes interactive demonstrations to facilitate hands-on learning and serves as a showcase of my practical skills and expertise in ASP.NET MVC development.
+              It includes interactive demonstrations to facilitate hands-on learning and serves as a showcase of my practical skills and expertise in ASP.NET MVC development.
               </td>
             </tr>
           </table>
@@ -36,7 +39,7 @@ function CSharpProjects() {
       )
     },
     {
-      id: '1',
+      id: '2',
       name: (
         <div>
         <p>PCCW 3G Retention(Asp.net C# Web development)</p> 
@@ -70,7 +73,7 @@ function CSharpProjects() {
       )
     },
     {
-      id: '2',
+      id: '3',
       name: (
         <div>
         <p>Authentication in Asp.net Core without AuthenticationHandler</p> 
@@ -103,7 +106,7 @@ function CSharpProjects() {
     }
     ,
     {
-      id: '3',
+      id: '4',
       name: (
         <div>
         <p>KNN Text Classification( K-Nearest Neighbors algorithm )</p>
@@ -129,7 +132,7 @@ function CSharpProjects() {
     }
     ,
     {
-      id: '4',
+      id: '5',
       name: (
         <div>
         <p>Entity framework core projects</p> 
@@ -162,7 +165,7 @@ function CSharpProjects() {
       )
     },
     {
-      id: '5',
+      id: '6',
       name: (
         <div>
         <p>payment gateway integration in asp.net core</p> 
@@ -192,9 +195,38 @@ function CSharpProjects() {
         </div>
       )
     }
-    
-    
-
+    ,
+    {
+      id: '7',
+      name: (
+        <div>
+        <p>Binary Classification SVM</p> 
+        <p>(Asp.net Core MVC + React JS + Binary Classification SVM + Entityframework)</p>
+        <a href='https://frontendapp2-82082989871.us-central1.run.app/'  target="_blank" rel="noopener noreferrer">Spring Boot Tutorials Website</a>
+        <p>This Binary Classification SVM website is designed to explore the use of Machine Learning and Support Vector Machines (SVM) for binary classification. This application demonstrates practical implementation using the Cat vs Dog dataset.</p>
+        <p>LoginID: user@gmail.com</p>
+        <p>Password: 1234qwer</p>
+        </div>
+      ),
+      description: (
+        <div>
+          <table  className="table">
+            <tr>
+              <td>
+              <img src={process.env.PUBLIC_URL + '/Images/BinaryClassificationSVM.png'} style={{ width: "260px", height: "150px" }} alt="Profile" />
+              </td>
+            </tr>
+            <tr>
+              <td style={{ width: '350px' }}>
+              1) Concept of Machine Learning Binary Classification using SVM.
+              2) Integration of the Accord Library.
+              3) Cat vs Dog Dataset Details.
+              </td>
+            </tr>
+          </table>
+        </div>
+      )
+    }
   ], []);
 
   // Define columns with custom render functions
