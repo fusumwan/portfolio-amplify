@@ -45,15 +45,11 @@ function JavaProjects() {
         <p>(Spring Boot Project)</p>
         <a href='https://github.com/fusumwan/ordertablewebopensource' target="_blank" rel="noopener noreferrer">download</a>
         <a href='https://ordertableweb-82082989871.us-central1.run.app/ordertableweb/' target="_blank" rel="noopener noreferrer">Project Demonstration Website link</a>
-        <table>
-          <tr>
-            <td style={{ width: '350px' }}>
+        <p>
             These projects are showcased on my YouTube channel.
             I am using Java,Spring Boot, Spring Security, Hibernate, Jquery, JWT, bootstrap, JWT,Mysql, and GCP.
             Testing Acount [LoginID: admin ,  Password:test123]
-            </td>
-          </tr>
-        </table>
+        </p>
         </div>
       ),
       description: (
