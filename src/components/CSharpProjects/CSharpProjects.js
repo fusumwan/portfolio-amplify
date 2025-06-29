@@ -15,7 +15,7 @@ function CSharpProjects() {
         <div>
         <p>ASP.NET MVC Learning Platform</p> 
         <p>(Asp.net Core MVC + Entityframework)</p>
-        <a href='https://aspnet7tutorials-82082989871.europe-west1.run.app'  target="_blank" rel="noopener noreferrer">Spring Boot Tutorials Website</a>
+        <a href='https://aspnet7tutorials-82082989871.europe-west1.run.app'  target="_blank" rel="noopener noreferrer">Asp.Net MVC Tutorials Website</a>
         <p>This ASP.NET MVC Tutorials website is designed as a comprehensive learning platform that covers essential topics such as the application lifecycle, design patterns, performance optimization, security, configuration, and real-world practice cases. </p>
         <p>LoginID: user@gmail.com</p>
         <p>Password: 1234qwer</p>
@@ -202,7 +202,7 @@ function CSharpProjects() {
         <div>
         <p>Binary Classification SVM</p> 
         <p>(Asp.net Core MVC + React JS + Binary Classification SVM + Entityframework)</p>
-        <a href='https://frontendapp2-82082989871.us-central1.run.app/'  target="_blank" rel="noopener noreferrer">Spring Boot Tutorials Website</a>
+        <a href='https://frontendapp2-82082989871.us-central1.run.app/'  target="_blank" rel="noopener noreferrer">Binary Classification SVM Website</a>
         <p>This Binary Classification SVM website is designed to explore the use of Machine Learning and Support Vector Machines (SVM) for binary classification. This application demonstrates practical implementation using the Cat vs Dog dataset.</p>
         <p>LoginID: user@gmail.com</p>
         <p>Password: 1234qwer</p>
