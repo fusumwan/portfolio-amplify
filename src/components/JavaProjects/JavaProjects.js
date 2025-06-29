@@ -14,8 +14,10 @@ function JavaProjects() {
       name: (
         <div>
         <p> Spring Boot Interactive Tutorials</p> 
-        <p>(This Spring Boot tutorials website serves as a comprehensive learning platform covering key topics such as application lifecycle, design patterns, performance optimization, security, configuration, and more.)</p>
+        <p>(Spring Boot + JPA)</p>
         <a href='https://springboottutorials-82082989871.northamerica-northeast1.run.app/springboottutorials/'  target="_blank" rel="noopener noreferrer">Spring Boot Tutorials Website</a>
+        <p>(This Spring Boot tutorials website serves as a comprehensive learning platform covering key topics such as application lifecycle, design patterns, performance optimization, security, configuration, and more.)</p>
+
         </div>
       ),
       description: (
