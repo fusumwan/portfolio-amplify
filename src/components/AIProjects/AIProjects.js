@@ -41,7 +41,7 @@ function AIProjects() {
               <td>
                 
 
-              <p><a href='https://itinformationinsight.blogspot.com/2024/10/ai-web-application-for-fuyika-phase-1.html' target="_blank" rel="noopener noreferrer">Fuyika RAG Application description Website link</a></p>
+              <p><a href='https://www.coinjade.net' target="_blank" rel="noopener noreferrer">CoinJade Limited Official Website link</a></p>
 
               </td>
             </tr>
