@@ -13,7 +13,7 @@ function AIProjects() {
       id: '1',
       name: (
         <div>
-        <p>Fuyika RAG AI Webapplication</p> 
+        <p>CoinJade  LearnWiseAI RAG AI Webapplication</p> 
         <p>(RAG + Langchain + Chroma +OpenAI+ FastAPI Python Project:)</p>
         <p>(Easy AI/Chat/Talk For Your Docs)</p>
         <p><a href='https://learnwiseaiwebapp-82082989871.us-central1.run.app' target="_blank" rel="noopener noreferrer">Website link</a></p>
