@@ -95,19 +95,12 @@ const SideNav = ({
           </div>
         </div>
         
-        <div className="list">
-          <a href="https://main.dvnq4p5zmaq26.amplifyapp.com/" className="item">
-          {/* "Logout" Button: 
-          This section creates a logout button styled as a list item in the navigation menu.
-          It uses an anchor tag (<a>) for the button, which can be linked to the logout functionality.
-          The button is visually represented by a material icon and the text 'Logout'.
-          Note: The actual logout functionality (like clearing user session, redirecting to login page, etc.)
-          should be implemented in the onClick event handler of this anchor tag. 
-            <span className="material-icons-round">logout</span>
-            Logout
-          
-          */}
-          </a>
+        <div className="list nav-footer">
+          <p className="nav-copyright">
+            Copyright &quot;Sum Wan, FU&quot;
+            <br />
+            Published by CoinJade Limited
+          </p>
         </div>
       </div>
     </div>

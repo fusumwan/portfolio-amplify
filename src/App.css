@@ -44,6 +44,7 @@ body {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   transform: translateX(-300px);
   transition: 0.25s;
+  overflow-y: auto;
 }
 .nav-bar.open {
   transform: translateX(0);
@@ -105,5 +106,18 @@ body {
 .list:last-child .item {
   color: rgb(255, 131, 131);
   background: rgba(100, 100, 100, 0.3);
+}
+.nav-footer {
+  box-sizing: border-box;
+  padding: 0 16px 20px;
+}
+.nav-copyright {
+  margin: 0;
+  padding-top: 12px;
+  border-top: 0.5mm solid rgb(87, 88, 109);
+  font-size: 11px;
+  line-height: 1.5;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
 }
 

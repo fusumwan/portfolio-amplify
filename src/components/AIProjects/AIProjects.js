@@ -39,8 +39,6 @@ function AIProjects() {
             </tr>
             <tr>
               <td>
-                
-
               <p><a href='https://www.coinjade.net' target="_blank" rel="noopener noreferrer">CoinJade Limited Official Website link</a></p>
 
               </td>
